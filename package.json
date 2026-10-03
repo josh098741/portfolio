@@ -1,0 +1,12 @@
+{
+  "name": "joshua-moronge-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Joshua Moronge — portfolio site. React + Vite + Tailwind CSS + DaisyUI, with the app living in frontend/.",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend install --no-audit --no-fund && npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "lint": "npm --prefix frontend run lint"
+  }
+}
